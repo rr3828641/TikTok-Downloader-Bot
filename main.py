@@ -1,5 +1,5 @@
 # Copyright 2021 TerminalWarlord under the terms of the MIT
-# license found at https://github.com/TerminalWarlord/TikTok-Downloader-Bot/blob/master/LICENSE
+# license found at https://github.com/rr3828641/TikTok-Downloader-Bot/edit/master/LICENSE
 # Encoding = 'utf-8'
 # Fork and Deploy, do not modify this repo and claim it yours
 # For collaboration mail me at dev.jaybee@gmail.com
@@ -34,7 +34,7 @@ def start(client, message):
     kb = [[InlineKeyboardButton('Channel 🛡', url=chnnl),InlineKeyboardButton('Repo 🔰', url="https://github.com/TerminalWarlord/TikTok-Downloader-Bot/")]]
     reply_markup = InlineKeyboardMarkup(kb)
     app.send_message(chat_id=message.from_user.id, text=f"Hello there, I am **TikTok Downloader Bot**.\nI can download TikTok video without Watermark.\n\n"
-                          "__**Developer :**__ __@JayBeeDev__\n"
+                          "__**Developer :**__ __@dark_nil__\n"
                           "__**Language :**__ __Python__\n"
                           "__**Framework :**__ __🔥 Pyrogram__",
                      parse_mode='md',
@@ -45,7 +45,7 @@ def start(client, message):
 
 @app.on_message(filters.command('help'))
 def help(client, message):
-    kb = [[InlineKeyboardButton('Channel 🛡', url=chnnl),InlineKeyboardButton('Repo 🔰', url="https://github.com/TerminalWarlord/TikTok-Downloader-Bot/")]]
+    kb = [[InlineKeyboardButton('Channel 🛡', url=chnnl),InlineKeyboardButton('Repo 🔰', url="https://github.com/rr3828641/TikTok-Downloader-Bot")]]
     reply_markup = InlineKeyboardMarkup(kb)
     app.send_message(chat_id=message.from_user.id, text=f"Hello there, I am **TikTok Downloader Bot**.\nI can download any TikTok video from a given link.\n\n"
                                             "__Send me a TikTok video link__",
